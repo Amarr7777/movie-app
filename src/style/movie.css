@@ -1,0 +1,32 @@
+.movie_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2% 5%;
+    justify-content: center;
+    max-height: 80vh;
+    overflow: auto;
+}
+.movie{
+    flex: 0 0 22%;
+    padding: 2% 5%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.movie_img{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.movieName{
+    padding-top: 2%;
+    margin: 0px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    color: black;
+}

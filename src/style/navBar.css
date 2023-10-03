@@ -1,0 +1,41 @@
+.navbarMain {
+    position: relative;
+    margin: 0;
+    height: 80px;
+    background-color: rgb(25, 118, 210);
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.navbarMain ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    list-style: none;
+    
+    
+}
+
+.navbarMain ul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbarMain ul li input {
+    background-color: transparent;
+    width: 200px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid rgb(25, 118, 210);
+    border-left: 1px solid rgb(25, 118, 210);
+    border-right: 1px solid rgb(25, 118, 210);
+}
+
+.FontAwesomeIcon {
+    padding: 3px 10px;
+}
+
